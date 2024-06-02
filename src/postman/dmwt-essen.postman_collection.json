@@ -1,0 +1,117 @@
+{
+	"info": {
+		"_postman_id": "d1f65a1b-2057-45ff-95e5-70874d1c5f6b",
+		"name": "dmwt-essen",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35313794"
+	},
+	"item": [
+		{
+			"name": "GetEssen",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/essen",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"essen"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateEssen",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Banane\",\r\n    \"description\": \"Eine lange, gelbe Frucht, reich an Kalium\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/essen",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"essen"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateEssen",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 11,\r\n    \"name\": \"Banane\",\r\n    \"description\": \"Eine tropische Frucht mit süßem Geschmack\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/essen",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"essen"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteEssen",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 11\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/essen",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"essen"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
